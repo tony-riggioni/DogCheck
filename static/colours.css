@@ -1,0 +1,9 @@
+/* This file only serves to define colours consistently and should be used for no other styling */
+:root {
+    --background: #181923;
+    --dark: #292d41;
+    --mid-tone: #6f687a;
+    --bright: #a58d89;
+    --text: #f3efec;
+    --accent: #40303f;
+}
