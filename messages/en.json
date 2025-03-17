@@ -2,7 +2,6 @@
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"WELCOME": "Hello, {user}!",
 	"LOGIN": "Login",
-	"USER_DEFAULT": "User",
 	"PUNNAME": "Dogs 'R' Us",
 	"SITE_WELCOME": "Hello! Welcome to Dogs 'R' Us",
 	"PLEASE_LOGIN": "Please log in below:",

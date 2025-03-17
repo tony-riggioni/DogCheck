@@ -2,7 +2,6 @@
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"WELCOME": "¡Bienvenide, {user}!",
 	"LOGIN": "Identificarte",
-	"USER_DEFAULT": "Usuarie",
 	"PUNNAME": "PerritosYa",
 	"SITE_WELCOME": "¡Hola! Bienvenide a PerritosYa",
 	"PLEASE_LOGIN": "Por favor, te identificá abajo:",
