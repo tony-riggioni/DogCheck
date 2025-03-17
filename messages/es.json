@@ -5,5 +5,8 @@
 	"USER_DEFAULT": "Usuarie",
 	"PUNNAME": "PerritosYa",
 	"SITE_WELCOME": "¡Hola! Bienvenide a PerritosYa",
-	"PLEASE_LOGIN": "Por favor, te identificá abajo:"
+	"PLEASE_LOGIN": "Por favor, te identificá abajo:",
+	"USERNAME": "Nombre del Usario",
+	"EMAIL": "Correo Electrónico",
+	"INVALID_CREDS": "El nombre del usario o el correo electrónico son incorrectos, por favor intentés de nuevo."
 }

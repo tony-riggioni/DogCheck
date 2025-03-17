@@ -1,7 +1,7 @@
 <script module>
     import * as m from "../lib/paraglide/messages.js"
 
-    let username = m.LOGIN(); // Titlebar reads as Welcome, Login! before user logs in.
+    let username = '';
 </script>
 
 <script lang="ts">
@@ -15,10 +15,18 @@
         const localPath = i18n.resolveRoute(canonicalPath, lang);
         goto(localPath);
     }
+    function welcomeUser(user: string): string
+    {
+        if (user == '') {
+            return m.LOGIN(); // Top Bar reads Welcome, Login before user logs in
+        }
+        return user;
+
+    }
 </script>
 
 <div class="topnav">
-    <div class="left-align">{m.WELCOME({user: username})}</div>
+    <div class="left-align">{m.WELCOME({user: welcomeUser(username)})}</div>
     <div class="center-align top-title">{m.PUNNAME()}</div>
     <button class="right-align" onclick={() => switchLang('en')}>English</button>
     <button class="right-align" onclick={() => switchLang('es')}>Español</button>

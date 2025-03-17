@@ -5,5 +5,8 @@
 	"USER_DEFAULT": "User",
 	"PUNNAME": "Dogs 'R' Us",
 	"SITE_WELCOME": "Hello! Welcome to Dogs 'R' Us",
-	"PLEASE_LOGIN": "Please log in below:"
+	"PLEASE_LOGIN": "Please log in below:",
+	"USERNAME": "Username",
+	"EMAIL": "Email",
+	"INCORRECT_CREDS": "Username or Email is invalid: please try again."
 }
